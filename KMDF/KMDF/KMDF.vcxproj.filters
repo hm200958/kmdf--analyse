@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Driver Files">
+      <UniqueIdentifier>{8E41214B-6785-4CFE-B992-037D68949A14}</UniqueIdentifier>
+      <Extensions>inf;inv;inx;mof;mc;</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Define">
+      <UniqueIdentifier>{17eddb26-4130-45e8-861b-075fca2df3a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Manager">
+      <UniqueIdentifier>{a624bbb8-a1f5-4509-b128-497effa77c9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\InterfaceBase">
+      <UniqueIdentifier>{2d9ab2c1-bfb5-47a8-a1fe-562a0bb4ae8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\InterfaceBase">
+      <UniqueIdentifier>{8823c4d0-b4a9-4d2b-b085-b6f577005816}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ListContainer">
+      <UniqueIdentifier>{d89c59d4-f029-4c83-a553-4f045ceaf404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ListContainer">
+      <UniqueIdentifier>{9528417d-4f30-4d7d-b857-d5f65115ffe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ProcessMonitor">
+      <UniqueIdentifier>{159d9b95-8bed-4256-87f6-99d10e148f19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ProcessMonitor">
+      <UniqueIdentifier>{1a78fbef-a0ac-4c08-add8-0c3b8824db9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MonitorCallBack">
+      <UniqueIdentifier>{ad643541-5417-4353-886a-b15a475be497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RegisterMonitor">
+      <UniqueIdentifier>{d433137f-dcc5-4e53-b66c-4f00e6d57bee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RegisterMonitor">
+      <UniqueIdentifier>{cac0dcc9-d377-4b85-861b-fa160c1ab3ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MonitorCallBack">
+      <UniqueIdentifier>{e3a1e663-f967-4b35-b037-f2b90f25dea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NetMonitor">
+      <UniqueIdentifier>{9c3e10bc-fe0c-4f28-990e-9a9789f78242}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NetMonitor">
+      <UniqueIdentifier>{a99411b0-490d-4b57-97d5-d739b86e1c60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ProtocolAnalysis">
+      <UniqueIdentifier>{dc4db9b1-be84-4518-8d57-01e45bac70ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Manager">
+      <UniqueIdentifier>{256f4ebe-e278-4af3-935e-c87641c746b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ProtocolAnalysis">
+      <UniqueIdentifier>{b1be6b6e-a4f8-486e-9fd2-933b1af73633}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FileMonitor">
+      <UniqueIdentifier>{86182b02-099d-4a91-80e5-0b077780caab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FileMonitor">
+      <UniqueIdentifier>{3bcaa47a-9669-4ddf-879c-c5612a41894d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Inf Include="KMDF.inf">
+      <Filter>Driver Files</Filter>
+    </Inf>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Device.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Driver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Public.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Trace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DriverDataDefine.h">
+      <Filter>Header Files\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="DriverCallFun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Header Files\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="KmdfManager.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="DriverOperator.h">
+      <Filter>Header Files\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectInterface.h">
+      <Filter>Header Files\InterfaceBase</Filter>
+    </ClInclude>
+    <ClInclude Include="ListContainer.h">
+      <Filter>Header Files\ListContainer</Filter>
+    </ClInclude>
+    <ClInclude Include="SpinLock.h">
+      <Filter>Header Files\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessMonitor.h">
+      <Filter>Header Files\ProcessMonitor</Filter>
+    </ClInclude>
+    <ClInclude Include="MonitorCallBack.h">
+      <Filter>Header Files\MonitorCallBack</Filter>
+    </ClInclude>
+    <ClInclude Include="RegisterMonitor.h">
+      <Filter>Header Files\RegisterMonitor</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMonitor.h">
+      <Filter>Header Files\NetMonitor</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtocolAnalysis.h">
+      <Filter>Header Files\ProtocolAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtocolHeader.h">
+      <Filter>Header Files\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="FileMonitor.h">
+      <Filter>Header Files\FileMonitor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="KmdfManager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Driver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DriverCallFun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Queue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectInterface.cpp">
+      <Filter>Source Files\InterfaceBase</Filter>
+    </ClCompile>
+    <ClCompile Include="ListContainer.cpp">
+      <Filter>Source Files\ListContainer</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessMonitor.cpp">
+      <Filter>Source Files\ProcessMonitor</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisterMonitor.cpp">
+      <Filter>Source Files\RegisterMonitor</Filter>
+    </ClCompile>
+    <ClCompile Include="MonitorCallBack.cpp">
+      <Filter>Source Files\MonitorCallBack</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMonitor.cpp">
+      <Filter>Source Files\NetMonitor</Filter>
+    </ClCompile>
+    <ClCompile Include="ProtocolAnalysis.cpp">
+      <Filter>Source Files\ProtocolAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="FileMonitor.cpp">
+      <Filter>Source Files\FileMonitor</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\ProcEnum">
+      <UniqueIdentifier>{ef8dd8d7-8802-41d5-b7f1-0e24401cfb66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ProcEnum">
+      <UniqueIdentifier>{52503c9f-9e21-4d88-b2b2-8644ad50c1f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Interface">
+      <UniqueIdentifier>{614903be-8cf9-4edc-88d9-7fbb9d26bc3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Model">
+      <UniqueIdentifier>{ab38e0a1-e807-44f4-8589-6c5deacaa6ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Model">
+      <UniqueIdentifier>{52fcdfa5-0aa8-440d-b293-41051641604a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ProcessBehaviour">
+      <UniqueIdentifier>{b94c60ed-6b73-4ddc-9f41-6e9e51dd3c5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ProcessBehaviour">
+      <UniqueIdentifier>{da0ede77-b265-4fe9-b35d-1fb13772e0a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Global">
+      <UniqueIdentifier>{7a83a454-cb08-47de-b8e9-b9ed2e1d5cf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Define">
+      <UniqueIdentifier>{9ddb7313-2e92-45e0-a6ac-8cdf950196bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Global">
+      <UniqueIdentifier>{983430a2-4014-406b-87ca-80b186714103}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Thread">
+      <UniqueIdentifier>{e57c42cf-a173-4411-8630-0d2a8dcb9a9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Thread">
+      <UniqueIdentifier>{b06b9bf8-38ae-4b2d-8117-d952ce7952d4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="littlebirds.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindowFrame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessEnum.h">
+      <Filter>头文件\ProcEnum</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfacePresenter.h">
+      <Filter>头文件\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfaceView.h">
+      <Filter>头文件\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaceModel.h">
+      <Filter>头文件\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelData.h">
+      <Filter>头文件\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessBehaviour.h">
+      <Filter>头文件\ProcessBehaviour</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindowView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalMap.h">
+      <Filter>头文件\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="UserDataDefine.h">
+      <Filter>头文件\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="UserStructDefine.h">
+      <Filter>头文件\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadObject.h">
+      <Filter>头文件\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWFPFilter.h">
+      <Filter>头文件\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalFun.h">
+      <Filter>头文件\Global</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="littlebirds.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindowFrame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessEnum.cpp">
+      <Filter>源文件\ProcEnum</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelData.cpp">
+      <Filter>源文件\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessBehaviour.cpp">
+      <Filter>源文件\ProcessBehaviour</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindowView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalMap.cpp">
+      <Filter>源文件\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadObject.cpp">
+      <Filter>源文件\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWFPFilter.cpp">
+      <Filter>源文件\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalFun.cpp">
+      <Filter>源文件\Global</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="littlebirds.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="littlebirds.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
